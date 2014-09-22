@@ -1,0 +1,77 @@
+
+.container {
+	/*top: 100px;*/
+	width: 600px;
+	margin: auto;
+}
+
+.outerShell {
+	background-color: #7f8c8d;
+	/*display: block;*/
+	padding: 30px;	
+	margin: auto;
+	border-radius: 10px;
+}
+
+.innerShell {
+	/*display: inline-block;*/
+	background-color: black;
+	border-radius: 10px;
+	padding: 30px;
+}
+
+.leftAm {
+	color: white;
+
+}
+
+.leftPm {
+	color: white;
+	text-align: left;
+	/*padding-top: 75px;*/
+	/*margin-top: 100px;*/
+}
+
+.leftAuto {
+	color: white;
+	text-align: left;
+}
+
+.clockScreen {
+	background-color: #9b2525;
+	/*padding-bottom: 20px;*/
+	/*padding-top: 20px;*/
+	border-radius: 10px;
+	/*margin-left: 40px;*/
+	/*float: right;*/
+
+}
+
+.ampmIndicator {
+	color: #e20909;
+	text-align: left;
+	font-size: 50px;
+}
+
+.clockText {
+	text-align: center;
+	font-size: 50px;
+	color: #e20909;
+	margin-left: 20px;
+	/*margin-bottom: 20px;*/
+	/*padding: ;*/
+}
+
+.amFrequencies {
+	color: white;
+	text-align: center;
+	/*padding: 10px;*/
+/*	margin-top: 20px;
+*/}
+
+.fmFrequencies {
+	color: white;
+	text-align: center;
+	/*margin-bottom: 20px;*/
+}
+
