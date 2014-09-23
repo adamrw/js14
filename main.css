@@ -38,9 +38,9 @@
 	color: white;
 	text-align: right;
 	position: absolute;
-	bottom: 1em;
+	bottom: 7.2em;
 	width: 4em;
-	margin-right: 1em
+	/*margin-right: 1em*/
 }
 
 .clockScreen {
