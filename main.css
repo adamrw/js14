@@ -1,23 +1,20 @@
 
 .container {
 	/*top: 100px;*/
-	width: 600px;
-	margin: auto;
+	/*text-align: center;*/
+	margin: 50px;
 }
 
 .outerShell {
 	background-color: #7f8c8d;
-	/*display: block;*/
-	padding: 30px;	
-	margin: auto;
+	padding: 20px;	
 	border-radius: 10px;
 }
 
 .innerShell {
-	/*display: inline-block;*/
 	background-color: black;
 	border-radius: 10px;
-	padding: 30px;
+	padding: 40px 10px;
 }
 
 .leftAm {
@@ -26,52 +23,65 @@
 }
 
 .leftPm {
+	display: inline;
 	color: white;
-	text-align: left;
-	/*padding-top: 75px;*/
-	/*margin-top: 100px;*/
+	text-align: right;
+	position: absolute;
+	margin-top: 144px;
+	margin-left: 35px;
+	/*top: 1em;*/
+	/*width: 4em;*/
+	/*margin-right: 1090px;*/
 }
 
 .leftAuto {
 	color: white;
-	text-align: left;
+	text-align: right;
+	position: absolute;
+	bottom: 1em;
+	width: 4em;
+	margin-right: 1em
 }
 
 .clockScreen {
 	background-color: #9b2525;
-	/*padding-bottom: 20px;*/
-	/*padding-top: 20px;*/
 	border-radius: 10px;
-	/*margin-left: 40px;*/
-	/*float: right;*/
+	font-family: Digital;
+	padding: 20px;
+	overflow: auto;
+	margin: 0 5em 10px 5em;
 
 }
 
 .ampmIndicator {
 	color: #e20909;
-	text-align: left;
-	font-size: 50px;
+	float: left;
+	font-size: 150px;
+	/*padding-right: 1em;*/
 }
 
 .clockText {
-	text-align: center;
-	font-size: 50px;
+	font-size: 150px;
 	color: #e20909;
-	margin-left: 20px;
-	/*margin-bottom: 20px;*/
-	/*padding: ;*/
+	text-align: center;
+	/*float: left;*/
+
 }
 
 .amFrequencies {
-	color: white;
 	text-align: center;
+	color: white;
+	margin: 0 5em;
+	letter-spacing: 4px;
 	/*padding: 10px;*/
 /*	margin-top: 20px;
 */}
 
 .fmFrequencies {
-	color: white;
 	text-align: center;
+	color: white;
+	margin: 0 5em;
+	letter-spacing: 4px; 
 	/*margin-bottom: 20px;*/
 }
 
